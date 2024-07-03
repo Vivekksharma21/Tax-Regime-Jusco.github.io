@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: poppins;
+    font-family:"Poppins",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image:url('tata1.jpg');
+    background-color: #30475e;
+    color: white;
+    padding: 20px 0;
+    height: 20px;
+  }
+  
+  body
+  {
+    height: 100%;
+    width:100%;
+    background-color:rgb(199, 172, 172);
+    text-align: center;
+    display: grid;
+    margin: auto;
+    
+  }
+ 
+  header div.home
+  {
+    font-size:14px;
+    margin-right: -168px;
+  }
+  header div.report
+  {
+    font-size:14px;
+    margin-right: -195px;
+  }
+  header div.logout 
+  {
+    font-size: 14px;
+    font-weight: 550;
+    padding: 3px 12px;
+    border: 2px solid red;
+    border-radius: 30px;
+    outline: none;
+    margin-left: 20px;
+    border-style: inset;
+    text-align: right;
+    margin-right:-85px;
+  }
+  h2
+  {
+    color: azure;
+    position:relative;
+  }
+  .content
+  {
+    border: 0px solid transparent;
+    background-color:rgb(217, 240, 243);
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    border-style:groove;
+    border-color:rgb(7, 7, 7);
+    width: 99.1%;
+    height:700px;
+    
+    
+  }
+  .container
+  {
+    text-align: left;
+    font-style:inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #244853;
+    color: white;
+    padding: 20px 0;
+    height: 8px;
+    width: 100%;
+
+  }
+  .search form
+  {
+    width: 100%;
+  }
+  .search fieldset
+  {
+    border: 1px solid black;
+    height:max-content;
+    margin-top:7px;
+    margin-left:20px;
+    margin-right:20px;
+    border-radius: 6px;
+  }
+  .search legend
+  {
+    text-align: left;
+    color: blue;
+    margin-left: 20px;
+  }
+::-webkit-calendar-picker-indicator
+{
+	background-color:hsl(180, 20%, 99%);
+	padding: 5px;
+	border: 5px;
+	cursor: pointer;
+	border-radius: 9px;
+}
+.table1
+{
+  width:67%;
+  text-align: center;
+  border-collapse: collapse;
+  margin-left: 25px;
+  margin-right:-50px;
+}
+.table1 th
+{
+  border: 2px solid rgb(19, 17, 44);
+  background-color: rgb(202, 212, 215);
+  padding: 3px;
+  color:rgb(16, 15, 15);
+  text-decoration:solid;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.table1 td
+{
+  border: 2px solid rgb(107, 87, 87);
+  padding: 3px;
+  color:black;
+  text-decoration:solid;
+}
+@media print
+{
+  body *{ visibility:hidden;}
+  .table1 *{ visibility: visible;}
+}
